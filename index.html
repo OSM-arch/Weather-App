@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css">
+</head>
+<body>
+    <div class="weather-app">
+        <header class="app-header">
+            <h1>Weather Forecast</h1>
+            <form class="search-form">
+                <input type="text" placeholder="Enter city name" class="search-input">
+                <button type="submit" class="search-button">
+                    <i class="wi wi-day-sunny"></i> Search
+                </button>
+            </form>
+        </header>
+        
+        <main class="weather-display">
+            <div class="location">
+                <h2 class="city-name"></h2>
+                <p class="date"></p>
+            </div>
+            
+            <div class="weather-info">
+                <div class="temperature">
+                    <div class="temp-value"></div>
+                    <div class="temp-description"></div>
+                </div>
+                
+                <div class="weather-icon">
+                    <i class="wi wi-day-sunny"></i>
+                </div>
+            </div>
+            
+            <div class="weather-details">
+                <div class="detail humidity">
+                    <i class="wi wi-humidity"></i>
+                    <div class="detail-value"></div>
+                    <div class="detail-label">Humidity</div>
+                </div>
+                
+                <div class="detail feels-like">
+                    <i class="wi wi-thermometer"></i>
+                    <div class="detail-value"></div>
+                    <div class="detail-label">Feels Like</div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!--Error Display Message-->
+    <div class="error-message-container" style="display: none;">
+        <div class="clear-button-container"><button type="button" class="clear-button">×</button></div>
+        <div class="error-message">
+            <i class="wi wi-alert"></i>
+            <span></span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
