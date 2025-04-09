@@ -6,10 +6,6 @@
 
 <br>
 
-<div align="center">
-  <img src="./screenshot.png" alt="Screenshot" width="600">
-</div>
-
 <h2>🚀 Features</h2>
 <ul>
   <li><b>🔍 City search</b> - Get weather for any location</li>
