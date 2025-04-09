@@ -50,7 +50,7 @@ function monthDay(month) {
 
 const searchForm = document.querySelector('.search-form');
 const searchInput = document.querySelector('.search-input');
-const APIkey = 'dff3f6d3f88b95bb8b35b94df8c337f5';
+const APIkey = 'your_api_key_here';
 
 searchForm.addEventListener('submit', async event => {
     event.preventDefault();
