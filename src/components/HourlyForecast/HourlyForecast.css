@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+@layer components {
+    .hourlyForecastContainer {
+        @apply flex flex-row gap-4 pb-2 overflow-hidden hover:overflow-x-scroll;
+    }
+    .hourlyForecastCard {
+        @apply flex flex-col justify-center items-center px-4;
+    }
+}

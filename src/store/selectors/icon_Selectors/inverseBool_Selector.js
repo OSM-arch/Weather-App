@@ -1,0 +1,1 @@
+export const icon_inverseBool_Selector = ({iconStore}) => iconStore.inverseBool;

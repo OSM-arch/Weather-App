@@ -1,0 +1,1 @@
+export const city_country_Selector = ({weatherForecastStore}) => weatherForecastStore.header.city_country;

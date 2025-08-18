@@ -1,0 +1,1 @@
+export const hourlyForecast_Selector = ({weatherForecastStore}) =>weatherForecastStore.main.hourlyForecast;

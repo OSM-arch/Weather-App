@@ -1,0 +1,1 @@
+export const clock_system_Selector = ({paramsStore}) => paramsStore.clock_system;

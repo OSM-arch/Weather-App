@@ -1,0 +1,1 @@
+export const temperatureUnit_Selector = ({paramsStore}) => paramsStore.temp_unit;

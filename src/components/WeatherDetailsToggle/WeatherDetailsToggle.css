@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@layer components {
+    .flex_row_between {@apply flex flex-row justify-between}
+    .weather_details_container {
+        @apply max-h-0 overflow-hidden peer-checked:max-h-fit
+               peer-checked:mt-5
+               transition-all duration-300;
+    }
+    .grid_cols_2 {@apply grid grid-cols-2}
+    .grid_cols_20_75 {@apply grid grid-cols-[20%_75%] gap-4;}
+    .grid_rows_3 {@apply grid-rows-3;}
+
+    .section {@apply py-2}
+    .section * {@apply self-center w-fit;}
+    .section_title {@apply opacity-60 leading-tight;}
+    .section_subtitle {@apply text-xl leading-tight;}
+}

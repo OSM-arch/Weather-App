@@ -1,0 +1,1 @@
+export const icon_lg_Selector = ({iconStore}) => iconStore.icon_lg;

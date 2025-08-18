@@ -1,0 +1,1 @@
+export const weeklyForecast_Selector = ({weatherForecastStore}) => weatherForecastStore.main.weeklyForecast;

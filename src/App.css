@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .scrollbar {
+        @apply  [&::-webkit-scrollbar]:w-2
+                [&::-webkit-scrollbar]:h-1.5
+                [&::-webkit-scrollbar-track]:rounded-full
+                [&::-webkit-scrollbar-track]:bg-transparent
+                [&::-webkit-scrollbar-thumb]:rounded-full
+                [&::-webkit-scrollbar-thumb]:bg-white/20
+                [&::-webkit-scrollbar-thumb]:backdrop-blur-lg
+    }
+}
+
+@layer base {
+    html, body, #root { height: 100vh; }
+    body {
+        margin: 0;
+        padding: 20px;
+        min-height: 100vh;
+        background: fixed linear-gradient(to bottom, #6ec3ff 0%, #6ec3ff 60%, #ffe27a 100%);
+        @apply text-white font-sans font-semibold;
+    }
+}
+
+@layer components {
+    .bg_glass {
+        @apply bg-white/20 backdrop-blur-lg px-1.5 py-2.5 rounded-2xl w-fit;
+    }
+    .flex_row_nowrap_evenly_center {
+        @apply flex flex-row flex-nowrap justify-evenly items-center;
+    }
+    .flex_row_nowrap_between_center {
+        @apply flex flex-row flex-nowrap justify-between items-center;
+    }
+}

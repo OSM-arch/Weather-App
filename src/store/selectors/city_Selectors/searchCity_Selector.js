@@ -1,0 +1,1 @@
+export const searchCity_Selector = ({cityStore}) => cityStore.searchCity;

@@ -1,0 +1,1 @@
+export const weatherDetails_Selector = ({weatherForecastStore}) => weatherForecastStore.main.weatherDetails;
