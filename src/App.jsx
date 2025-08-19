@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from "./components/Header/Header.jsx";
 import {Provider} from "react-redux";
 import store from "./store/store/store.js";
