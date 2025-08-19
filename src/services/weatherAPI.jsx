@@ -98,7 +98,7 @@ export default function WeatherAPI({onSetIsReady}) {
 
         if (!q) return;
 
-         axios.get(`http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${q}&days=7`)
+         axios.get(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${q}&days=7`)
             .then(function (response) {
                 // handle success
                 setWeatherApi(response);
