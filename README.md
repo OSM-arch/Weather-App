@@ -9,7 +9,6 @@ The app fetches real-time weather data and displays the **current, hourly, and w
 - [Introduction](#-introduction)  
 - [Features](#-features)  
 - [Project Structure](#-project-structure)   
-- [Configuration](#-configuration)  
 - [Dependencies](#-dependencies)  
 - [Contributors](#-contributors)   
 
